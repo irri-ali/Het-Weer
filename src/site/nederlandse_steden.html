@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Rajdhani:wght@400;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Weer Online</title>
+
+</head>
+<body>
+<a id="links-boven-knop" href="alarm.html">Naar Weer Alarm</a>
+<a id="links-onder-knop" href="actuele_radar.html">Naar Neerslagradar</a>
+<div id="bovenbalk">
+    <a href="kaart.html">Naar Kaart</a>
+</div>
+<a id="onderbalk" href="nederlandse_steden.html"> Nederlandse Steden </a>
+
+<div id="cloud"></div>
+<div id="sun">
+    <div id="rings">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div id="page">
+
+
+    </select>
+    <table id="myTABLE" cellpadding="20" class="tablestyle">
+        <th> Kies hier<br>
+            <select id="stadSelect" onchange="myFunction('update-titel')">
+                <option value=4></option>
+                <option value=0>Amsterdam</option>
+                <option value=1>Haarlem</option>
+                <option value=2>Uden</option>
+                <option value=3>Groningen</option>
+            </select>           
+        </th>
+        <td colspan="4"><h2 id="update-titel">Selecteer een stad</h2></td>
+
+        <tr onclick="select(this)">
+            <th>&nbsp;</th>
+            <th id="dag-vandaag" class="dagen midden"> Vandaag:</th>
+            <th id="dag-morgen" class="dagen midden"> Morgen:</th>
+            <th id="dag-overmorgen" class="dagen midden"> Overmorgen:</th>
+            <th id="dag-daarna" class="dagen midden"> Daarna:</th>
+
+        </tr>
+        </button>
+        <tr onclick="select(this)">
+            <td>&nbsp;</td>
+            <!--https://www.freepik.com/free-vector/coloured-weather-icons-collection_895655.htm-->
+            <td class="afbeeldingen" id="afbeelding1-vandaag"><img class="afbeeldingen1 foto-midden"
+                                                                   id="afbeelding-vandaag"
+                                                                   src="../icons/volledigeregen.png" width="100"
+                                                                   height="100" alt="regen"></td>
+            <td class="afbeeldingen"><img class="afbeeldingen1 foto-midden" id="afbeelding-morgen"
+                                          src="../icons/regenenzon.png" width="100" height="100" alt="regen en zon">
+            </td>
+            <td class="afbeeldingen"><img class="afbeeldingen1 foto-midden" id="afbeelding-overmorgen"
+                                          src="../icons/bewolkt.png" width="100" height="100" alt="bewolkt"></td>
+            <td class="afbeeldingen"><img class="afbeeldingen1 foto-midden" id="afbeelding-daarna"
+                                          src="../icons/volledigezon.png" width="100" height="100" alt="zonnig"></td>
+        </tr>
+        <tr onclick="select(this)">
+            <td class="zij-tekst"> Minimum temperatuur</td>
+            <td class="temperatuur midden" id="minimum-vandaag" class="koud"></td>
+            <td class="temperatuur midden" id="minimum-morgen" class="koud" id="minimum-vandaag-getal"></td>
+            <td class="temperatuur midden" id="minimum-overmorgen" class="fris"></td>
+            <td class="temperatuur midden" id="minimum-daarna" lass="fris"></td>
+        </tr>
+        <tr onclick=select(this)>
+            <td class="zij-tekst"> Maximum temperatuur</td>
+            <td class="temperatuur midden" id="maximum-vandaag" class="lauw"></td>
+            <td class="temperatuur midden" id="maximum-morgen" class="lauw"></td>
+            <td class="temperatuur midden" id="maximum-overmorgen" class="lauw"></td>
+            <td class="temperatuur midden" id="maximum-daarna" class="warm"></td>
+        </tr>
+        <tr onclick=select(this)>
+            <td colspan="1" class="zij-tekst"> Wind:</td>
+            <td id="windbericht-vandaag"><span id="italics">Deze week geen wind van betekenis.. </span></td>
+            <td id="windbericht-morgen"><span id="italics">Deze week geen wind van betekenis.. </span></td>
+            <td id="windbericht-overmorgen"><span id="italics">Deze week geen wind van betekenis.. </span></td>
+            <td id="windbericht-daarna"><span id="italics">Deze week geen wind van betekenis.. </span></td>
+        </tr>
+        <tr>
+
+    </table>
+    <div id="myDIV">
+        <p id="p1weersverwachting">Vandaag is het nog <u>erg nat</u>, maar vanaf morgen breekt de zon weer door en wordt
+            het geleidelijk aan beter. Op sommige plaatsen zal het morgen al de hele dag droog zijn.</p>
+        <ul>
+            <li class="links" id="item-knmi">Het <a id="link-knmi"
+                                                    href=https://www.knmi.nl/nederland-nu/weer/verwachtingen"> KNMI
+                weerbericht</a></li>
+            <li class="links" id="item-nos">Het <a id="link-nos" href="https://nos.nl/weer/"> NOS weerbericht</a></li>
+            <li class="links" id="item-buienradar">Het weer volgens <a id="link-buienradar"
+                                                                       href="https://www.buienradar.nl/">
+                buienradar.nl</a></li>
+        </ul>
+    </div>
+</div>
+
+</a>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="steden.js">
+
+</script>
+
+</html>

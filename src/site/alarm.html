@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weer Alarm</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Rajdhani:wght@400;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="bovenbalk">
+    <a href="kaart.html">Naar Kaart</a>
+</div>
+<a id="links-boven-knop" href="index.html">Terug naar weer</a>
+<a id="links-onder-knop" href="actuele_radar.html">Naar Neerslagradar</a>
+<div id="onderbalk">Ali Sultan voor HvA</div>
+
+<h1>Weer Alarm</h1>
+<p>Meld je hier aan voor gratis SMS-notificatie voor een weer-alarm op locatie:</p>
+<form action="javascript:sayVerstuurd()">
+    <table>
+        <tr>
+            <td><label for="myEmail">E-mail:</label></td>
+            <td><input type="email" id="myEmail"
+                       required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/></td>
+        </tr>
+        <tr>
+            <td><label for="myPhone">Telefoon nr:</label></td></td>
+            <td><input type="text" id="myPhone"
+                       pattern="[0][6][0-9]{8}"
+                       /></td>
+        </tr>
+        <tr>
+            <td>Alarm-code</td>
+            <td><input type="radio" name="ra1"   value="geel"/>Geel
+            <input type="radio" name="ra1"   value="rood"/>Rood</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox">Ik accepteer de privacy voorwaarden voor de registratie van mijn email-adres en telefoon-nr</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Registreer</button></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+
+</body>
+<script src="alarm.js" defer></script>
+</html>

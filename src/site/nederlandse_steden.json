@@ -1,0 +1,126 @@
+[
+  {
+    "stad": "Amsterdam",
+    "vandaag": {
+      "dag": "vandaag",
+      "dagAfwijking": 0.12,
+      "temp1": 42,
+      "temp2": 38,
+      "wind": 0
+    },
+    "morgen": {
+      "dag": "morgen",
+      "dagAfwijking": 1,
+      "temp1": 5,
+      "temp2": 31,
+      "wind": 1
+    },
+    "overmorgen": {
+      "dag": "overmorgen",
+      "dagAfwijking": 3,
+      "temp1": -5,
+      "temp2": 20,
+      "wind": 3
+    },
+    "daarna": {
+      "dag": "daarna",
+      "dagAfwijking": 4,
+      "temp1": -10,
+      "temp2": 3,
+      "wind": 2
+    }
+  },
+  {
+    "stad": "Haarlem",
+    "vandaag": {
+      "dag": "vandaag",
+      "dagAfwijking": 0,
+      "temp1": 12,
+      "temp2": 33,
+      "wind": 1
+    },
+    "morgen": {
+      "dag": "morgen",
+      "dagAfwijking": 1,
+      "temp1": 1,
+      "temp2": 37,
+      "wind": 3
+    },
+    "overmorgen": {
+      "dag": "overmorgen",
+      "dagAfwijking": 3,
+      "temp1": -8,
+      "temp2": 27,
+      "wind": 1
+    },
+    "daarna": {
+      "dag": "daarna",
+      "dagAfwijking": 4,
+      "temp1": 28,
+      "temp2": 29,
+      "wind": 2
+    }
+  },
+  {
+    "stad": "Uden",
+    "vandaag": {
+      "dag": "vandaag",
+      "dagAfwijking": 0,
+      "temp1": 27,
+      "temp2": -1,
+      "wind": 1
+    },
+    "morgen": {
+      "dag": "morgen",
+      "dagAfwijking": 1,
+      "temp1": 32,
+      "temp2": -9,
+      "wind": 2
+    },
+    "overmorgen": {
+      "dag": "overmorgen",
+      "dagAfwijking": 3,
+      "temp1": -7,
+      "temp2": -4,
+      "wind": 3
+    },
+    "daarna": {
+      "dag": "daarna",
+      "dagAfwijking": 4,
+      "temp1": 24,
+      "temp2": 35,
+      "wind": 1
+    }
+  },
+  {
+    "stad": "Groningen",
+    "vandaag": {
+      "dag": "vandaag",
+      "dagAfwijking": 0,
+      "temp1": 14,
+      "temp2": -7,
+      "wind": 1
+    },
+    "morgen": {
+      "dag": "morgen",
+      "dagAfwijking": 1,
+      "temp1": 18,
+      "temp2": 37,
+      "wind": 2
+    },
+    "overmorgen": {
+      "dag": "overmorgen",
+      "dagAfwijking": 3,
+      "temp1": -7,
+      "temp2": -2,
+      "wind": 2
+    },
+    "daarna": {
+      "dag": "daarna",
+      "dagAfwijking": 4,
+      "temp1": -5,
+      "temp2": -8,
+      "wind": 3
+    }
+  }
+]

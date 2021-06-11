@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Rajdhani:wght@400;600&display=swap"
+          rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Weer Kaart</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+<a id="links-boven-knop" href="alarm.html">Naar Weer Alarm</a>
+<a id="links-onder-knop" href="actuele_radar.html">Naar Neerslagradar</a>
+<div id="bovenbalk">
+    <a href="index.html">Terug naar weer</a>
+</div>
+<div id="kop">
+<h1>Weer kaart</h1>
+<p>
+Hier vind je de weersverwachting van de komende dagen:
+</p>
+kies de dag
+<select id="mySelect" onchange="myFunction()">
+    <option value=0>Vandaag
+    <option value=1>Morgen
+    <option value=2>Overmorgen
+</select>
+
+</form>
+</div>
+<div>
+    <img src="../icons/Nederland.png" alt="" id="kaart">
+    <svg id="numbers-overlay" height="600px" width="600px">
+        <text id="vlissingen" x="25" y="535" class="small">99</text>
+        <text id="amsterdam" x="245" y="310" class="small">77</text>
+        <text id="uden" x="370" y="500" class="small">66</text>
+        <text id="groningen" x="485" y="95" class="small">55</text>
+
+        <div id="arrow">
+        <!--Arrow gekopieerd van http://thenewcode.com/1068/Making-Arrows-in-SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                            refX="0" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" />
+                    </marker>
+                </defs>
+                <line x1="0" y1="50" x2="250" y2="50" stroke="#933"
+                      stroke-width="1" marker-end="url(#arrowhead)" />
+            </svg>
+        </div>
+    </svg>
+        </div>
+    </svg>
+</div>
+<div id="onderbalk">Ali Sultan voor HvA</div>
+</body>
+<script src="kaart.js" defer></script>
+</html>

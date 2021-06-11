@@ -1,0 +1,493 @@
+#page {
+    background: linear-gradient(to left,rgba(255, 230, 0, 0.4), rgb(235, 241, 61), rgba(61, 208, 241, 0.3));
+}
+
+body {
+
+    background-image: url("../icons/backgroundsand.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    font-size: 1.25em;
+    font-family: 'Rajdhani', sans-serif;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+#links-boven-knop
+{
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 500px;
+    background: linear-gradient(to right, rgba(255, 242, 86, 0.7), rgba(0,0,0,0.0));
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    font-size: 48px;
+    text-align: center;
+    text-decoration: none;
+    height: auto;
+    position: page;
+}
+#links-boven-knop:hover
+{
+    color: white;
+}
+#links-onder-knop {
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    background: linear-gradient(to right, rgba(255, 242, 86, 0.7), rgba(0,0,0,0.0));
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    font-size: 48px;
+    text-align: center;
+    text-decoration: none;
+    height: auto;
+    position: page;}
+#links-onder-knop:hover
+{
+    color: white;
+}
+#bovenbalk{
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 500px;
+    background: linear-gradient(to left, rgba(255, 242, 86, 0.7), rgba(0,0,0,0.0));
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    font-size: 48px;
+    text-align: center;
+    height: auto;
+    position: page;
+
+}
+
+#onderbalk {
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    background: linear-gradient(to left, rgba(255, 242, 86, 0.7), rgba(0, 0, 0, 0.0));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    text-align: center;
+    height: auto;
+    position: page;
+}
+h1{color: #ff7f50;
+    border: 2px solid #6d00ff;
+width: 900px;
+}
+#kop {
+    font-weight: 100 ;
+    font-family: 'Pontano Sans';
+}
+.tables {text-align: center;
+    font-family: 'Rajdhani';
+    font-weight: 50;
+    table-layout: fixed;
+}
+.zij-tekst {
+    font-family: 'Pontano Sans';
+    text-align: right;
+}
+#italics {font-style: oblique;}
+h1:hover{color: mediumvioletred;}
+.tables {color: blue;}
+.tables:hover {color: #6d00ff;}
+.koud {color: #b3d4ff;}
+.fris {color: #8dffd3;}
+.lauw {color: #ffee79;}
+.warm {color: #ff7978;}
+li:first-child {color: #7d15c7;}   /* om te oefenen*/
+li:nth-child(2) {color: #ff7978;} /* om te oefenen*/
+li:last-child {color: brown} /* om te oefenen*/
+a:hover {color: red}a:link {color: brown}
+a:visited {color: gray} H3 + a {color: #9fa300}
+H3 + a:hover {color: #e1e500}
+#kop {background-color: rgba(109, 0, 205, 0.2)
+}
+.dagen {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: rgba(102, 206, 252, 0.2);
+    border-top: 11px solid #0073ff;
+    border-right: 11px solid #0073ff;
+    border-left: 11px solid #0073ff;
+
+}
+.afbeeldingen {
+    background-color: rgba(255,255,255, 0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-bottom: 11px solid #ffc800;
+    border-left: 11px solid #ffc800;
+    border-right: 11px solid #ffc800;
+
+}
+.afbeeldingen:hover{
+    border-color: #FFF200;
+    background-color: rgba(255,255,255, 0.7);
+    content: "hello world";
+
+}
+.temperatuur {
+    background-color: rgba(0,0,0, 0.2);
+    box-sizing: content-box;
+    font-size: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 11px solid #ffc800;
+    -webkit-text-stroke: 1px rgba(255,255,255, 0.2);
+
+
+}
+
+#verborgentekst-anker{
+    font-size: 7px;
+}
+#HiddenText {
+    display: none;
+    font-size: 16px;
+}
+
+#minimum-vandaag:hover #HiddenText {
+    display: grid;
+    font-size: 16px;
+}
+#minimum-vandaag:hover + #verborgen-min-vandaag {display:block; color: red;}
+
+.temperatuur:hover
+{
+    border: 11px solid #fff200;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.zij-tekst {
+    background-color: rgba(0,0,0, 0.1);
+    box-sizing: content-box;
+    text-align: right;
+    border-top: 11px solid #0073ff;
+    border-bottom: 11px solid #0073ff;
+    border-left: 11px solid #0073ff;
+
+}
+
+#kopweersverwachting {background-color: rgba(255, 197, 197, 0.4);
+    font-family: 'Pontano Sans';
+    width: 900px;}
+#kopweersverwachting:hover {background-color: rgba(255,64,63, 0.4);
+    font-family: 'Pontano Sans';
+    width: 900px;}
+
+#item-knmi {background-color: #9efd7d;
+    width: 850px;}
+
+#item-nos {background-color: #b3d4ff;
+    width: 850px;}
+#item-buienradar {background-color: #ffee79;
+    width: 850px;}
+#item-buienradar:hover {background-color: #ffdf11
+}
+#link-knmi
+{
+    border:1px solid white;
+    background-color: coral;
+    text-decoration: none
+}
+#link-knmi:hover
+{
+    color:white;
+    background-color: #ff501d;
+}
+#link-nos
+{
+    border:1px solid white;
+    background-color: #ffee79;
+    text-decoration: none;
+
+}
+#link-nos:hover
+{
+    background: #ffe831;
+    color: black;
+}
+#link-buienradar {background-color: #969bd4;
+    border:1px solid white;
+    text-decoration: none;
+    color: lightgray;
+}
+#link-buienradar:hover
+{
+    background: #848cd4;
+    color:white;
+}
+#kopneerslagradar {background-color: #9fa300;
+    font-family:'Pontano Sans';
+    width: 900px;}
+#kopneerslagradar:hover{background-color: #e4e76f;
+    font-family:'Pontano Sans';
+    width: 900px;}
+p  { width: 850px;}
+
+.midden {
+    text-align: center;
+}
+.afbeeldingen1{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    line-height: 0;
+
+}
+#windbericht {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.0));
+}
+#weerslaggif
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+tr.selected td, tr.selected th {
+    background-color: black!important;
+}
+/* wolken gekopieerd van thecodeplayer.com */
+
+#cloud {
+    width: 350px; height: 120px;
+
+    background: #f2f9fe;
+    background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -webkit-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+    background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    animation-name: ijsberen;
+    animation-duration: 15s;
+    animation-iteration-count: 3;
+    position: relative;
+    margin: 120px auto 20px;
+    z-index: -1;
+}
+
+#cloud:after, #cloud:before {
+    content: '';
+    position: absolute;
+    background: #f2f9fe;
+    z-index: -1
+}
+
+#cloud:after {
+    width: 100px; height: 100px;
+    top: -50px; left: 50px;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#cloud:before {
+    width: 180px; height: 180px;
+    top: -90px; right: 50px;
+
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+
+@keyframes ijsberen {
+    0%  {left:0%; top:0px;}
+    25%  {left:10%; top:0px;}
+    50%  {left:20%; top:0px;}
+    75%  {left:10%; top:0px;}
+    100%  {left:0%; top:0px;}
+
+}
+
+
+/* code for the sun gekopieerd van thecodeplayer.com */
+#sun{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width: 300px;
+    height: 300px;
+    z-index: -2;
+}
+#sun *, #sun *:before, #sun *:after{
+    position: absolute;
+}
+
+/* code for the rings */
+#rings{
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+#rings div:before, #rings div:after{
+    content: "";
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    background: inherit;
+}
+#rings div:before{
+    transform: rotate(60deg);
+}
+#rings div:after{
+    transform: rotate(-60deg);
+}
+#rings div:nth-child(even){
+    animation: rotateR 12s infinite linear;
+}
+#rings div:nth-child(odd){
+    animation: rotateL 12s infinite linear;
+    transform: rotate(15deg);
+}
+#rings div:nth-child(1){
+    animation-duration: 45s;
+    backgrond: rgba(255, 230, 84, 0.5);
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+}
+#rings div:nth-child(2){
+    animation-duration: 49s;
+    background: rgba(255, 185, 6, 0.5);
+    width: 190px;
+    height: 190px;
+    margin: -95px 0 0 -95px;
+}
+#rings div:nth-child(3){
+    animation-duration: 56s;
+    background: rgba(255, 130, 5, 0.5);
+    width: 180px;
+    height: 180px;
+    margin: -90px 0 0 -90px;
+}
+#ringsv idiv:nth-child(4){
+    animation-duration: 93s;
+    background: rgba(255, 90, 0, 0.5);
+    width: 170px;
+    height: 170px;
+    margin: -85px 0 0 -85px;
+}
+
+/* animations */
+@-webkit-keyframes rotateR{
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotateR{
+    from{
+        -moz-transform: rotate(0deg);
+    }
+    to{
+        -moz-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes rotateR{
+    from{
+        -ms-transform: rotate(0deg);
+    }
+    to{
+        -ms-transform: rotate(360deg);
+    }
+}
+@-o-keygrames rotateR{
+    from{
+        -o-transform: rotate(0deg);
+    }
+    to{
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes rotateR{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateL{
+    from{
+        -webkit-transform: rotate(360deg);
+    }
+    to{
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes rotateL{
+    from{
+        -moz-transform: rotate(360deg);
+    }
+    to{
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-ms-keyframes rotateL{
+    from{
+        -ms-transform: rotate(360deg);
+    }
+    to{
+        -ms-transform: rotate(0deg);
+    }
+}
+@-o-keyframes rotateL{
+    from{
+        -o-transform: rotate(360deg);
+    }
+    to{
+        -o-transform: rotate(0deg)
+    }
+}
+@keyframes rotateL{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+#mySelect {
+    z-index: 9999;
+}
+#numbers-overlay {
+    position: absolute;
+    left: 240px;
+    top: 174px;
+
+}
+#kaart {
+    z-index: -100;
+    position: absolute;
+    left: 240px;
+    top: 174px;
+}
+#arrow{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 300px;
+}
